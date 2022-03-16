@@ -1,0 +1,11 @@
+{application,balcony_rel,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{balcony_rel_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[balcony,balcony_handler,balcony_rel_app,
+                        balcony_rel_sup,no_matching_route_handler]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
